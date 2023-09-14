@@ -1,12 +1,20 @@
-import { useState } from 'react'
 import './App.scss'
+import About from './components/About'
+import Books from './components/Books'
+import Footer from './components/Footer'
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+import Services from './components/Services'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Vite + React</h1>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Books />
+      <Footer />
     </>
   )
 }
