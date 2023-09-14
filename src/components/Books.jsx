@@ -23,20 +23,20 @@ const Books = () => {
                   <p>{item.info}</p>
                   <div className='book-footer'>
                     <p>
-                      <span class='service-icon'>
-                        <i class='fas fa-user'></i>
+                      <span className='service-icon'>
+                        <i className='fas fa-user'></i>
                       </span>
                       {item.author}
                     </p>
                     <p>
-                      <span class='service-icon'>
-                        <i class='fas fa-star'></i>
+                      <span className='service-icon'>
+                        <i className='fas fa-star'></i>
                       </span>
                       {item.rating}
                     </p>
                     <p>
-                      <span class='service-icon'>
-                        <i class='fas fa-menu'></i>
+                      <span className='service-icon'>
+                        <i className='fas fa-menu'></i>
                       </span>
                       {item.chapter} Chapter
                     </p>
