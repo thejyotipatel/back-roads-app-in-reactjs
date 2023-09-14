@@ -7,7 +7,7 @@ const Books = () => {
       <section className='section' id='books'>
         <Title title={'top 4'} subTitle={' most read books'} />
 
-        <div className='section-center topmost-center'>
+        <div className='section-center book-center'>
           {books.map((item) => {
             return (
               <article className='book-card' key={item.id}>

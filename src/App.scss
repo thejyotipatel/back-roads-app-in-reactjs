@@ -526,14 +526,14 @@ Featured books
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .featured-center {
+  .book-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 }
 @media screen and (min-width: 1170px) {
-  .featured-center {
+  .book-center {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
